@@ -5,9 +5,8 @@ use match::simple qw(match);
 use Sub::Infix;
 use Exporter qw(import);
 our @EXPORT = qw(in);
-use Data::Dump;
 
-our $VERSION = '0.0001'; # VERSION
+our $VERSION = '0.0002'; # VERSION
 
 sub install {
     my ($class, %args) = @_;
@@ -32,7 +31,7 @@ Syntax::Feature::In - provides an "in" operator as a replacement for smartmatch
 
 =head1 VERSION
 
-version 0.0001
+version 0.0002
 
 =head1 SYNOPSIS
 

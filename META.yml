@@ -19,7 +19,6 @@ meta-spec:
   version: 1.4
 name: Syntax-Feature-In
 requires:
-  Data::Dump: 0
   Exporter: 0
   Sub::Infix: 0
   match::simple: 0.009
@@ -29,4 +28,4 @@ requires:
 resources:
   bugtracker: https://github.com/ironcamel/Syntax-Feature-In/issues
   repository: git://github.com/ironcamel/Syntax-Feature-In.git
-version: 0.0001
+version: 0.0002
